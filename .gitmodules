@@ -13,3 +13,6 @@
 [submodule "ROS/src/open_mower_ros"]
 	path = ROS/src/open_mower_ros
 	url = https://github.com/mkelk/open_mower_ros.git
+[submodule "ROS/src/ublox"]
+	path = ROS/src/ublox
+	url = https://github.com/mkelk/ublox.git
