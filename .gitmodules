@@ -10,3 +10,6 @@
 [submodule "ROS/src/xesc_ros"]
 	path = ROS/src/xesc_ros
 	url = https://github.com/ClemensElflein/xesc_ros.git
+[submodule "ROS/src/open_mower_ros"]
+	path = ROS/src/open_mower_ros
+	url = https://github.com/mkelk/open_mower_ros.git
