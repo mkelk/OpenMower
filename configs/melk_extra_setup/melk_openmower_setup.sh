@@ -13,6 +13,11 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 sudo apt update 
 sudo apt install ros-noetic-ros-base -y
 
+# source ROS installation for all new bash shells
+echo "source /opt/ros/noetic/setup.bash" >> ~/.bashrc
+# source in this shell
+source /opt/ros/noetic/setup.bash
+
 # setting up OpenMower
 sudo apt install python3-rosdep -y
 sudo rosdep init
