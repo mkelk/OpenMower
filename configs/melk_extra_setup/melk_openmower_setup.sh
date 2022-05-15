@@ -1,7 +1,7 @@
 #!/usr/bin/env sh
 
 # disable unattended upgrades
-sudo apt remove unattended-upgrades
+sudo apt remove unattended-upgrades -y
 
 # get latest sources and updates
 sudo apt update 
