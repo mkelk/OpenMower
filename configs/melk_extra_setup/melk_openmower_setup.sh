@@ -14,7 +14,7 @@ sudo apt update
 sudo apt install ros-noetic-ros-base -y
 
 # setting up OpenMower
-sudo apt install python3-rosdep
+sudo apt install python3-rosdep -y
 sudo rosdep init
 rosdep update
 cd ~/OpenMower/ROS/
