@@ -12,6 +12,9 @@ else
   echo "Misc repodir already exists in ${REPODIR}..."
 fi
 
+# make sure we have pip3
+sudo apt install python3-pip
+
 # get RTKLIB
 source ~/OpenMower/configs/melk_extra_setup/rtklib_setup.sh $REPODIR
 
