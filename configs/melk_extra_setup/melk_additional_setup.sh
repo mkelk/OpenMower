@@ -21,7 +21,8 @@ source ~/OpenMower/configs/melk_extra_setup/rtklib_setup.sh $REPODIR
 # install sparkfun-qwiic-icm20948 for IMU
 source ~/OpenMower/configs/melk_extra_setup/imu_setup.sh $REPODIR
 
-
+# install gpsdecode - for testing both serial and ntrip gps incoming data
+sudo apt install gpsd-clients -y
 
 
 
