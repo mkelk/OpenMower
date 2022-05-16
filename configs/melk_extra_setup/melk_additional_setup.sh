@@ -13,7 +13,7 @@ else
 fi
 
 # make sure we have pip3
-sudo apt install python3-pip
+sudo apt install python3-pip -y
 
 # get RTKLIB
 source ~/OpenMower/configs/melk_extra_setup/rtklib_setup.sh $REPODIR
