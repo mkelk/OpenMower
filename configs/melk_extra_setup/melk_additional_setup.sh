@@ -24,6 +24,15 @@ source ~/OpenMower/configs/melk_extra_setup/imu_setup.sh $REPODIR
 # install gpsdecode - for testing both serial and ntrip gps incoming data
 sudo apt install gpsd-clients -y
 
+# set my git username and email
+git config --global user.email "morten@elk.dk"
+git config --global user.name "Morten Elk"
+
+# set git to remember my credentials
+git config --global credential.helper 'cache --timeout=360000'
+
+
+
 
 
 cd ~/OpenMower/configs/melk_extra_setup
