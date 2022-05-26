@@ -31,6 +31,10 @@ git config --global user.name "Morten Elk"
 # set git to remember my credentials
 git config --global credential.helper 'cache --timeout=360000'
 
+# install rosserial
+sudo apt-get install ros-noetic-rosserial-arduino -y
+sudo apt-get install ros-noetic-rosserial -y
+
 
 
 
